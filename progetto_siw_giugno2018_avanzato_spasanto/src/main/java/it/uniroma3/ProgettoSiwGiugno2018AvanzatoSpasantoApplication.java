@@ -18,8 +18,8 @@ import it.uniroma3.service.CentroService;
 import it.uniroma3.service.ResponsabileService;
 
 @SpringBootApplication
-
 public class ProgettoSiwGiugno2018AvanzatoSpasantoApplication {
+	
 	@Autowired
 	private AllievoService allievoService;
 	
@@ -34,7 +34,6 @@ public class ProgettoSiwGiugno2018AvanzatoSpasantoApplication {
 	
 	@Autowired
 	private ResponsabileService responsabileService;
-
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProgettoSiwGiugno2018AvanzatoSpasantoApplication.class, args);
