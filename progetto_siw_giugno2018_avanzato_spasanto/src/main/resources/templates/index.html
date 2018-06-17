@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Pagina iniziale progetto</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+</head>
+<body>
+    <p th:text="'Benvenuto' + '!'" />
+    <a th:href="@{/addAllievo}">Inserisci nuovo allievo</a>
+    <a th:href="@{/allievi}">Mostra tutti gli allievi</a>
+</body>
+</html>

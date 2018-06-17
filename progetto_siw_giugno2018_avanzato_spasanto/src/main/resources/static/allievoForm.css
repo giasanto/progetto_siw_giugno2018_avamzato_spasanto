@@ -1,0 +1,32 @@
+html, body{
+color: #000099;
+font-family: Verdana, Arial, sans-serif;
+font-size: 10pt;
+background-color: none;
+background-image: url(https://static1.squarespace.com/static/58987be037c58185b5ee8be3/589982b615d5db526ef4dfdb/59722629893fc05688061d9f/1500653128567/09_CentroGSbellinzona_fotoVillada_065.jpg?format=1000w);
+}
+
+a:link{
+text-decoration: none;
+color: #009900 ;
+}
+
+a:visited{
+text-decoration: none;
+color: Gray;
+}
+
+a:hover{
+color: #ff0000;
+text-decoration: none;
+}
+
+td{
+font-family: "MS Sans Serif";
+font-size: 13pt;
+}	
+
+p{
+text-align: justify;
+text-indent: 12px;
+}
