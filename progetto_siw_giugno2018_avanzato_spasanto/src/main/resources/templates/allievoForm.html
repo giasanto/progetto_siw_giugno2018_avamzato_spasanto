@@ -24,12 +24,12 @@
 			</tr>
 			<tr>
 				<td>Email:</td>
-				<td><input type="text" th:field="*{email}" /></td>
+				<td><input type="email" th:field="*{email}" /></td>
 				<td th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></td>
 			</tr>
 			<tr>
                 <td>Telefono:</td>
-                <td><input type="text" th:field="*{telefono}" /></td>
+                <td><input type="tel" th:field="*{telefono}" /></td>
                 <td th:if="${#fields.hasErrors('telefono')}" th:errors="*{telefono}"></td>
             </tr>
             <tr>
