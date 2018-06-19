@@ -1,0 +1,24 @@
+html, h{
+color: darkcyan;
+font-family: Verdana, Arial, sans-serif;
+font-size: 15pt;
+background-image: url(http://modavi.it/new/wp-content/uploads/2018/01/progetto_fast_formazione.jpg);
+background-repeat:no-repeat;
+background-position:center;
+background-size: 1400px 1100px;
+}
+
+h1:visited{
+text-decoration: none;
+color: Gray;
+}
+
+td{
+font-family: "MS Sans Serif";
+font-size: 20pt;
+}
+
+p{
+text-align: justify;
+text-indent: 12px;
+}
