@@ -1,12 +1,17 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
+<link href="progettoForm.css" rel="stylesheet" type="text/css">
     <title>Pagina iniziale progetto</title>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 </head>
 <body>
     <p th:text="'Benvenuto' + '!'" />
-    <a th:href="@{/addAllievo}">Inserisci nuovo allievo</a>
-    <a th:href="@{/allievi}">Mostra tutti gli allievi</a>
+    <p><a th:href="@{/addAllievo}"> Inserisci un nuovo Allievo</a></p>
+    <p><a th:href="@{/allievi}"> Mostra tutti gli Allievi</a></p>
+    <p><a th:href="@{/addAttivita}"> Crea una nuova Attivita</a></p>
+    <p><a th:href="@{/attivitas}"> Mostra tutte le Attivita</a></p>
+    <p><a th:href="@{/addCentro}"> Crea un nuovo Centro</a></p>
+    <p><a th:href="@{/centri}"> Mostra tutti i Centri associati</a></p>
 </body>
 </html>

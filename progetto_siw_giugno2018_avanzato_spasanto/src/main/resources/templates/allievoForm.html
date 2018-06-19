@@ -2,6 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org"
 	xmlns="http://www.w3.org/1999/html">
 <head>
+<link href="progettoForm.css" rel="stylesheet" type="text/css">
 <meta charset="ISO-8859-1">
 </head>
 <body>
@@ -33,7 +34,7 @@
             </tr>
             <tr>
                 <td>Data di nascita:</td>
-                <td><input type="text" th:field="*{dataNascita}" /></td>
+                <td><input type="date" th:field="*{dataNascita}" /></td>
                 <td th:if="${#fields.hasErrors('dataNascita')}" th:errors="*{dataNascita}"></td>
             </tr>
             <tr>
@@ -43,6 +44,9 @@
             </tr>
 			<tr>
 				<td><button type="submit">Invio</button></td>
+			</tr>
+			<tr>
+				<td><button type="reset">Reset</button></td>
 			</tr>
 		</table>
 	</form>
